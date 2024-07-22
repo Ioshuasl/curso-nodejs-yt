@@ -1,0 +1,13 @@
+CREATE DATABASE sistemaDeCadastro;
+
+SHOW DATABASES;
+
+USE sistemaDeCadastro
+
+CREATE TABLE usuarios(
+    nome VARCHAR(50),
+    email VARCHAR(100),
+    idade INT
+);
+
+SHOW TABLES;
